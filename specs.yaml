@@ -1,0 +1,8 @@
+scm:
+  repo: https://github.com/ukkiran/covid19.git
+  branch: master
+build:
+  type: java
+  tool: maven
+test:
+  tool: maven

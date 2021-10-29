@@ -1,0 +1,7 @@
+java:
+  Build:
+    maven:
+      mvn clean package
+  Test:
+    maven:
+      mvn test
