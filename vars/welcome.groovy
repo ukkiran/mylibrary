@@ -2,7 +2,7 @@ def call(){
     pipeline{
         agent any
         stage{
-            print "welcome to the jenkins"
+            echo "welcome to the jenkins"
         }
     }
 }
