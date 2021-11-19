@@ -1,9 +1,8 @@
 def call(){
     pipeline{
-        agent(any){
+        agent any
         stage{
             print "welcome to the jenkins"
-        }
         }
     }
 }
